@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+body {
+background: rgb(207, 190, 255);
+font-family: 'Mooli', sans-serif;
+}
+
+main {
+background: linear-gradient(-45deg, #AC32E4 0%, #7918F2 50%, #4801FF 100%);
+margin-top: 3%;
+margin-left:1%;
+margin-right: 1%;
+display: flex;
+justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ border-radius: 10px;
+}
+
+.leafsun {
+  font-size: 32px;
+}
+
+.p {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+
+.box {
+  display:flex;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 5px;
+}
+
+#days{
+  background-color: black;
+  color: white;
+  display:flex;
+  text-align: center;
+  justify-content: center;      
+  flex-direction: column;
+  text-align:center;
+  width: 75px;
+  height: 75px;
+  border-radius: 15px;
+} 
+
+#hours {
+  border-radius: 15px;
+    background-color: black;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align:center;
+      width: 75px;
+      height: 75px;
+}
+
+#minutes {
+  border-radius: 15px;
+  text-align: center;
+    background-color: black;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 75px;
+      height: 75px;
+}
+
+#seconds {
+  border-radius: 15px;
+   text-align: center;
+    background-color: black;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 75px;
+      height: 75px;
+}
+
+.form {
+  padding-top: 20px;
+}
+
+#submit {
+  width: 250px;
+}
+
+.footer {
+  margin-top: 30px;
+  padding-bottom: 20%;
+}
